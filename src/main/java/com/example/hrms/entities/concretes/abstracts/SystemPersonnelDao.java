@@ -1,0 +1,8 @@
+package com.example.hrms.entities.concretes.abstracts;
+
+import com.example.hrms.entities.concretes.SystemPersonnel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SystemPersonnelDao extends JpaRepository<SystemPersonnel,Integer> {
+
+}
